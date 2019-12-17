@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Labb4Countries.MainPage">
+
+
+
+     <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Previous" Command="{Binding PreviousButtonCommand}" />      
+        <ToolbarItem Text="Next" Command="{Binding NextButtonCommand}"/>             
+    </ContentPage.ToolbarItems>
+
+     <Page.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="Medium" />
+           
+        </Style>
+    </Page.Resources>
+
+
+  
+
+
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 Margin="20"
+                 Spacing="10">
+
+        <Image x:Name="flagImage"
+               Source="{Binding CurrentCountry.ImageUrl}"
+               HeightRequest="150"
+               Aspect="AspectFit"/>
+
+        <Label x:Name="CurrentCountryLabel"
+               Text="{Binding CurrentCountry.Name, StringFormat='Current country: {0:N}'}"/>
+
+        <Label x:Name="CurrencyLabel"
+               Text="{Binding CurrentCountry.Currency, StringFormat='Currency: {0:N}'}"/>
+
+        <Label x:Name="PopulationLabel"
+               Text="{Binding CurrentCountry.Population, StringFormat='Population: {0:N}'}"/>
+
+        <Label x:Name="InformationText"
+               Text="{Binding CurrentCountry.Description}"/>
+
+    </StackLayout>
+</ContentPage>

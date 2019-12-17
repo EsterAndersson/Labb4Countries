@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
+    <Folder Include="View\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Model\rawData.json" />
+    <None Remove="denmark.png" />
+    <None Remove="norway.png" />
+    <None Remove="sweden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model\rawData.json" />
+    <EmbeddedResource Include="denmark.png" />
+    <EmbeddedResource Include="norway.png" />
+    <EmbeddedResource Include="sweden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CountryExtension.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/bin/Release/netstandard2.0/Labb4Countries.deps.json
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/bin/Release/netstandard2.0/Labb4Countries.dll
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/bin/Release/netstandard2.0/ref/Labb4Countries.dll
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/bin/Release/netstandard2.0/Labb4Countries.pdb
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/View/MainPage.xaml.g.cs
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/Labb4Countries.AssemblyInfoInputs.cache
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/Labb4Countries.AssemblyInfo.cs
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/XamlC.stamp
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/Labb4Countries.dll
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/ref/Labb4Countries.dll
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/Labb4Countries.pdb
+/Users/esterandersson/Documents/C# KURS/Labb4Countries/Labb4Countries/obj/Release/netstandard2.0/Labb4Countries.csprojAssemblyReference.cache

@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{654A5F67-F262-4190-A004-B285E836B476}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Labb4Countries/Model/CountryRepository.cs">
+    <Files>
+      <File FileName="Labb4Countries/View/MainPage.xaml.cs" Line="23" Column="13" IsPinned="True" />
+      <File FileName="Labb4Countries/ViewModel/MainViewModel.cs" Line="27" Column="41" />
+      <File FileName="Labb4Countries/View/MainPage.xaml" Line="18" Column="58" />
+      <File FileName="Labb4Countries/CountryExtension.cs" Line="18" Column="1" />
+      <File FileName="Labb4Countries/App.xaml.cs" Line="12" Column="1" />
+      <File FileName="Labb4Countries/Labb4Countries.csproj" Line="1" Column="1" />
+      <File FileName="Labb4Countries/Model/CountryRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Labb4Countries" expanded="True">
+            <Node name="Labb4Countries" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="CountryRepository.cs" selected="True" />
+              </Node>
+              <Node name="View" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="Labb4Countries.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Labb4Countries.iOS" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Labb4Countries.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.732A5B83-D26A-48A2-A374-1EFE9F33451A" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Labb4Countries.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

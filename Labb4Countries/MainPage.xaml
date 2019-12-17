@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Labb4Countries.MainPage"
+             Title="Labb4Countries">
+     <Page.Resources>
+        <x:Double x:Key="FontSize">18</x:Double>
+    </Page.Resources>
+
+
+
+   <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Previous" Command="{Binding PreviousButtonCommand}" />      
+        <ToolbarItem Text="Next" Command="{Binding NextButtonCommand}"/>             
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Spacing="10">
+        <StackLayout.Padding>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="10,30,10,5" />
+                    <On Platform="Android" Value="10,10,10,5" />
+                </OnPlatform>
+            </StackLayout.Padding>
+
+        <Image x:Name="flagImage"
+               Source="{Binding ImageUrl}"
+               HeightRequest="100"
+               WidthRequest="200"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Aspect="AspectFit"/>
+
+        <Label x:Name="CurrentCountryLabel"
+               Text="{Binding Name, StringFormat='Current country: {0:N}'}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="{StaticResource FontSize}"/>
+
+        <Label x:Name="CurrencyLabel"
+               Text="{Binding Currency, StringFormat='Currency: {0:N}'}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="{StaticResource FontSize}"/>
+
+        <Label x:Name="PopulationLabel"
+               Text="{Binding Population, StringFormat='Population: {0:N}'}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="{StaticResource FontSize}"/>
+
+        <Label x:Name="InformationText"
+               Text="{Binding Description}"
+               HorizontalOptions="Center"
+               VerticalOptions="StartAndExpand"
+               FontSize="{StaticResource FontSize}"/>
+
+    </StackLayout>
+</ContentPage>
